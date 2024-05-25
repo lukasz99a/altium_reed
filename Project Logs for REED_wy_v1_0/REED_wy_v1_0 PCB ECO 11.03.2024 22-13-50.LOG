@@ -1,0 +1,24 @@
+Change Component Designator: OldDesignator=R1 NewDesignator=R3
+Change Component Designator: OldDesignator=R3 NewDesignator=R2
+Added Component: Designator=C1(R1206-mod)
+Add component (AddParameter): Name = "Indeks"; Value = "C 10U-3216-TAN-10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Uwagi"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D1(R1206-mod)
+Add component (AddParameter): Name = "Autor"; Value = "Matysiuk Dariusz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://download.maritex.com.pl/pdfs/op/ledp2lrw.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Indeks"; Value = "D LEDP2L-RW120"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Uwagi"; Value = "czerwona"; VariantName = "[No Variations]"
+Added Component: Designator=R1(R1206-mod)
+Add component (AddParameter): Name = "Indeks"; Value = "R 390R-0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Uwagi"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=REED_ON# Pin=R1-1
+Added Pin To Net: NetName=3V3 Pin=R1-2
+Change Net Name : Old Net Name=NetR1_2 New Net Name=NetR2_2
+Added Member To Class: ClassName=REED_wy_v1_0 Member=Component C1 10u/10V
+Added Member To Class: ClassName=REED_wy_v1_0 Member=Component D1 LEDP2L-RW120
+Added Member To Class: ClassName=REED_wy_v1_0 Member=Component R3 330R

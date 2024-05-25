@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=NetISO1_3 Pin=Q2-1
+Removed Pin From Net: NetName=NetR1_2 Pin=Z1-1
+Removed Member From Class: ClassName=NAM_wy_v1_0 Member=D1
+Removed Member From Class: ClassName=NAM_wy_v1_0 Member=D2
+Removed Member From Class: ClassName=NAM_wy_v1_0 Member=Q1
+Removed Member From Class: ClassName=NAM_wy_v1_0 Member=Q2
+Removed Member From Class: ClassName=NAM_wy_v1_0 Member=R2
+Change Component Comment : Designator=R3 Old Comment=1k New Comment=330R
+Add Component: Footprint Not Found PLCC-2
+Add Component: Footprint Not Found R1206-mod
+Added Component: Designator=T?(TSOP6_3d)
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Indeks"; Value = "IC SMD-SI3433CDV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Uwagi"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR1_2 Pin=R3-2
+Added Pin To Net: NetName=NetR1_2 Pin=T?-1
+Added Pin To Net: NetName=NetR1_2 Pin=T?-2
+Added Pin To Net: NetName=NetR1_2 Pin=T?-5
+Added Pin To Net: NetName=NetR1_2 Pin=T?-6
+Added Pin To Net: NetName=NetISO1_3 Pin=Z2-2
+Added Pin To Net: NetName=3V3 Pin=T?-4
+Added Pin To Net: NetName=3V3 Pin=Z1-1
+Added Net: Name=3V3
+Added Pin To Net: NetName=GND Pin=ISO1-2
+Added Pin To Net: NetName=GND Pin=Z1-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetD?_2 Pin=R3-1
+Added Net: Name=NetD?_2
+Added Pin To Net: NetName=NetISO1_4 Pin=ISO1-4
+Added Pin To Net: NetName=NetISO1_4 Pin=Z2-1
+Added Net: Name=NetISO1_4
+Added Pin To Net: NetName=REED_ON# Pin=T?-3
+Added Net: Name=REED_ON#
+Change Class Name : Old Net Name=NAM_wy_v1_0 New Net Name=REED_wy_v1_0
+Add Class Member: Failed to add class member : Component D? LEDP2L-RW120
+Add Class Member: Failed to add class member : Component R? 100k
+Added Member To Class: ClassName=REED_wy_v1_0 Member=Component T? SI3433CDV
